@@ -1,3 +1,7 @@
+.user-component {
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
 .user-component,
 .user-component__column:first-child {
   display: flex;
@@ -25,4 +29,30 @@
 .user-component__avatar--xl {
   width: 80px;
   height: 80px;
+}
+
+.user-component__avator--sm {
+  height: 60px;
+  width: 60px;
+  border-radius: 25px;
+}
+
+.user-component__title--not-bold {
+  font-weight: 400;
+}
+
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.user-component__column .fas:first-child {
+  margin-left: 10px;
+}
+
+.user-component__time {
+  display: block;
+  margin-bottom: 10px;
 }
