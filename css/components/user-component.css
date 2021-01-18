@@ -22,8 +22,10 @@
 
 .user-component__subtitle {
   margin-top: 8px;
-  font-size: 17px;
-  color: (0, 0, 0, 0.3);
+  font-size: 16px;
+}
+.user-component__subtitle span {
+  opacity: 0.5;
 }
 
 .user-component__avatar--xl {
@@ -55,4 +57,9 @@
 .user-component__time {
   display: block;
   margin-bottom: 10px;
+}
+
+.exclamation {
+  color: tomato;
+  opacity: 1;
 }
